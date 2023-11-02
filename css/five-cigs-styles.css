@@ -49,14 +49,16 @@ div.synopsis {
 }
 
 #disclaimer {
-	width:400px;
+	width:330px;
 	text-align: justify;
-	font-size:11pt;
+	font-size:10pt;
+	padding-left:20px;
 }
 
 #copyright {
 	width:400px;
 	text-align: justify;
-	font-size:11pt;
+	font-size:10pt;
+	padding-left:20px;
 }
 
