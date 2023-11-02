@@ -11,6 +11,8 @@ h1.book-title {
 	line-height: 1;
 }
 
+
+
 p {
 	color: black;
 }
@@ -49,16 +51,16 @@ div.synopsis {
 }
 
 #disclaimer {
-	width:330px;
+	width:400px;
 	text-align: justify;
-	font-size:10pt;
-	padding-left:20px;
+	font-size:9pt;
+	font-family:Courier;
 }
 
 #copyright {
 	width:400px;
 	text-align: justify;
-	font-size:10pt;
-	padding-left:20px;
+	font-size:9pt;
+	font-family: Courier;
 }
 
