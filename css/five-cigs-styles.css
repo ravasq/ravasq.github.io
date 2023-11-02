@@ -1,0 +1,62 @@
+body,html {
+	font-family: arial;
+	background-color:white;
+	height:100%;
+	
+}
+
+h1.book-title {
+	color:black;
+	font-family: Georgia;
+	line-height: 1;
+}
+
+p {
+	color: black;
+}
+
+#coming-soon {
+	font-family: Georgia;
+	font-size:17pt;
+	line-height:1;
+}
+
+#subtitle {
+	color:black;
+	font-family: Georgia;
+}
+
+#author {
+	font-family: Georgia;
+	font-size:22pt;
+	line-height:1;
+}
+
+.bg {
+
+	background-image: url("../imgs/herewego.jpg"); 
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height:100%;
+}
+
+div.synopsis {
+	padding-left: 20px;
+	width: 770px;
+	line-height: 1.9;
+	font-family: Verdana;
+}
+
+#disclaimer {
+	width:400px;
+	text-align: justify;
+	font-size:11pt;
+}
+
+#copyright {
+	width:400px;
+	text-align: justify;
+	font-size:11pt;
+}
+
