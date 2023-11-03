@@ -1,7 +1,8 @@
-body,html {
+body {
 	font-family: arial;
 	background-color:white;
-	height:100%;
+	margin:auto;
+	width:700px;
 	
 }
 
@@ -44,21 +45,20 @@ p {
 }
 
 div.synopsis {
-	padding-left: 20px;
-	width: 770px;
+	margin:auto;
 	line-height: 1.9;
 	font-family: Verdana;
 }
 
 #disclaimer {
-	width:400px;
+	width:500px;
 	text-align: justify;
 	font-size:9pt;
 	font-family:Courier;
 }
 
 #copyright {
-	width:400px;
+	width:500px;
 	text-align: justify;
 	font-size:9pt;
 	font-family: Courier;
