@@ -48,7 +48,6 @@ p {
 }
 
 div.synopsis {
-	margin:auto;
 	line-height: 1.9;
 	font-family: Verdana;
 	font-size:14pt;
@@ -57,14 +56,19 @@ div.synopsis {
 
 #disclaimer {
 	text-align: justify;
-	font-size:9pt;
-	font-family:Courier;
+	color:white;
 }
 
 #copyright {
 	text-align: justify;
+	color:white;
+}
+
+div.footer {
+	background:black;
 	font-size:9pt;
 	font-family: Courier;
+	padding: 20px;
 }
 
 @media only screen and (max-width: 620px) {
