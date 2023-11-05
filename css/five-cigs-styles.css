@@ -1,8 +1,9 @@
 body {
 	font-family: arial;
+	font-size:5vw;
 	background-color:white;
-	margin:auto;
-	width:800px;
+	/*margin:auto;*/
+	/*width:100%;*/
 	
 }
 
@@ -10,6 +11,8 @@ h1.book-title {
 	color:black;
 	font-family: Georgia;
 	line-height: 1;
+	font-size:110pt;
+	width:800px;
 }
 
 
@@ -20,7 +23,7 @@ p {
 
 #coming-soon {
 	font-family: Georgia;
-	font-size:17pt;
+	font-size:27pt;
 	line-height:1;
 }
 
@@ -31,7 +34,7 @@ p {
 
 #author {
 	font-family: Georgia;
-	font-size:22pt;
+	font-size:44pt;
 	line-height:1;
 }
 
@@ -48,19 +51,27 @@ div.synopsis {
 	margin:auto;
 	line-height: 1.9;
 	font-family: Verdana;
+	font-size:14pt;
+	padding:10px;
 }
 
 #disclaimer {
-	width:600px;
 	text-align: justify;
 	font-size:9pt;
 	font-family:Courier;
 }
 
 #copyright {
-	width:600px;
 	text-align: justify;
 	font-size:9pt;
 	font-family: Courier;
+}
+
+@media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+  h1.book-title {
+    width: 100%;
+    font-size:15vw;
+  }
 }
 
