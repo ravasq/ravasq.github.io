@@ -64,6 +64,11 @@ div.synopsis {
 	color:white;
 }
 
+#contact {
+	text-align:justify;
+	color:white;
+}
+
 div.footer {
 	background:black;
 	font-size:9pt;
