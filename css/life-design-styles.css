@@ -1,0 +1,64 @@
+
+a:link {
+  color: none;
+  text-decoration:none;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: purple;
+}
+
+body {
+  background-image: url("../imgs/gabi-flipped-again.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:2000px;
+}
+
+h2 {
+  font-size:27pt;
+  line-height:.4;
+  font-family: sans-serif;
+}
+
+h3 {
+  font-size:24pt;
+  line-height:.2;
+}
+
+.menu-container {
+
+
+}
+
+/*
+#title {
+  font-size:27pt;
+  line-height:.4;
+  color:darkolivegreen;
+}
+*/
+
+.menu {
+  width:700px;
+  margin:auto;
+  margin-top:111px;
+  height:1111px;
+  font-family: sans-serif;
+}
+
+.menu p {
+
+  font-family: monospace;
+  font-size: 12pt;
+}
+
+.footer {
+  width:700px;
+  margin:auto;
+  color:white;
+}

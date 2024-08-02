@@ -1,0 +1,305 @@
+
+a:link {
+  color: orangered;
+  text-decoration: none;
+}
+
+a:visited {
+  color: orangered;
+}
+
+a:hover {
+  color: orangered;
+}
+
+body {
+  /*background-image: url("../imgs/gabi-flipped-again.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;*/
+  background:snow;
+  height:2400px;
+}
+
+h1 {
+  font-size:50pt;
+  line-height: .9;
+  font-family: 'Nova Mono';
+}
+
+h1 a:visited {
+  color:black;
+}
+
+h1 a:link {
+  color:black;
+}
+
+h2 {
+  font-size:24pt;
+  line-height:.4;
+  font-family: 'Nova Mono';
+}
+
+h2 a:link {
+  color:black;
+}
+
+h2 a:visited {
+  color:black;
+}
+
+h2 a:hover {
+  color:black;
+}
+
+h3 {
+  font-size:16pt;
+  line-height:1;
+  font-family: 'DM Mono';
+  text-decoration: underline;
+  text-decoration-style: dashed;
+  text-indent: 20px;
+}
+
+h4 {
+  font-size:13pt;
+  line-height:1.5;
+  font-family: 'Space Grotesk';
+}
+
+ol {
+  font-family: 'DM Mono';
+  font-size: 11pt;
+
+}
+
+ol a:link {
+  text-decoration: underline 2px;
+}
+
+ul {
+  font-family: 'DM Mono';
+  font-size: 11pt;
+
+}
+
+ul a:link {
+  text-decoration: underline 2px;
+}
+
+
+hr {
+  border-width: 1px;
+}
+
+
+hr.dotted {
+  border: 1px dashed;
+}
+
+::-moz-selection { /* Code for Firefox */
+  color: white;
+  background: sandybrown;
+}
+
+::selection {
+  color: white;
+  background: sandybrown;
+}
+
+.menu-container {
+
+}
+
+/*
+#title {
+  font-size:27pt;
+  line-height:.4;
+  color:darkolivegreen;
+}
+*/
+
+.menu {
+  width:800px;
+  margin:auto;
+  margin-top:77px;
+  height:1240px;
+  box-shadow: 5px 5px 5px black, 10px 10px darkgreen, 15px 15px gold;
+  background:whitesmoke;
+  padding:8px;
+  opacity:0.88;
+}
+
+.menu p {
+  font-family: 'Space Grotesk';
+  font-size: 14pt;
+}
+
+#copr {
+  font-size: 9pt;
+  font-family: 'Courier Prime';
+  text-indent: 20px;
+}
+
+#para-lead {
+  font-size: 21pt;
+  font-family: 'Montserrat';
+}
+
+#under-construction {
+  font-size:7.7pt;
+  text-align: right;
+  color:orangered;
+  font-weight: bold;
+}
+
+
+#backToPage1 {
+  font-size:11pt;
+  font-family: 'Courier Prime';
+  list-style-type: none;
+  margin-bottom: 77px;
+}
+
+/*#subtitle {
+  font-size: 12pt;
+}*/
+
+.menu-about {
+  width:800px;
+  margin:auto;
+  margin-top:77px;
+  height:1900px;
+  box-shadow: 5px 5px 5px gold;
+  background:whitesmoke;
+  padding:8px;
+  opacity:0.88;
+}
+
+
+.menu-about p {
+  font-family: 'Space Grotesk';
+  font-size: 14pt;
+}
+
+.menu-pod {
+  width:800px;
+  margin:auto;
+  margin-top:77px;
+  height:1900px;
+  box-shadow: 5px 5px 5px black;
+  background:whitesmoke;
+  padding:8px;
+  opacity:0.88;
+}
+
+
+.menu-pod p {
+  font-family: 'Space Grotesk';
+  font-size: 14pt;
+}
+
+.menu-loreshilife {
+  width:800px;
+  margin:auto;
+  margin-top:77px;
+  height:1111px;
+  box-shadow: 5px 5px 5px black;
+  background:whitesmoke;
+  padding:8px;
+  opacity:0.88;
+}
+
+
+.menu-loreshilife p {
+  font-family: 'Space Grotesk';
+  font-size: 14pt;
+}
+
+.menu-prettyface {
+  width:800px;
+  margin:auto;
+  margin-top:77px;
+  height:1900px;
+  box-shadow: 5px 5px 5px darkgreen;
+  background:whitesmoke;
+  padding:8px;
+  opacity:0.88;
+}
+
+
+.menu-prettyface p {
+  font-family: 'Space Grotesk';
+  font-size: 14pt;
+}
+
+.menu-fivecigs {
+  width:800px;
+  margin:auto;
+  margin-top:77px;
+  height:1900px;
+  box-shadow: 5px 5px 5px gold;
+  background:whitesmoke;
+  padding:8px;
+  opacity:0.88;
+}
+
+
+.menu-fivecigs p {
+  font-family: 'Space Grotesk';
+  font-size: 14pt;
+}
+
+/*
+.bio {
+  background:black;
+  color:white;
+  padding:2px;
+
+}
+*/
+
+.gimme-space {
+  height:30px;
+}
+
+
+@media only screen and (max-width: 800px) {
+  /* For mobile phones: */
+  .menu {
+    width: 100%;
+    margin-top: 2px;
+    font-size:15vw;
+    padding: 1px;
+  }
+    .menu-about {
+    width: 100%;
+    margin-top:2px;
+    font-size:15vw;
+    padding: 1px;
+  }
+    .menu-fivecigs {
+    width: 100%;
+    margin-top:2px;
+    font-size:15vw;
+    padding: 1px;
+  }
+    .menu-prettyface {
+    width: 100%;
+    margin-top:2px;
+    font-size:15vw;
+    padding: 1px;
+  }
+    .menu-loreshilife {
+    width: 100%;
+    margin-top:2px;
+    font-size:15vw;
+    padding: 1px;
+  }
+
+ /*   .menu-pod {
+    width: 100%;
+    font-size:15vw;*/
+  }
+}
