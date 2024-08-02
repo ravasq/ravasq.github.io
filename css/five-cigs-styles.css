@@ -54,6 +54,15 @@ div.synopsis {
 	padding:10px;
 }
 
+div.readme {
+	line-height: 1.9;
+	font-family: Verdana;
+	font-size:11pt;
+	padding:10px;
+	margin:auto;
+
+}
+
 #disclaimer {
 	text-align: justify;
 	color:white;
